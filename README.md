@@ -35,17 +35,17 @@ docker run -ti --rm \
  - Go to https://api.ovh.com/createToken/
 
  - Add this rule for all domain
- 	- GET /domain/zone/*
-	- PUT /domain/zone/*
-	- POST /domain/zone/*
-	- DELETE /domain/zone/*
+    - GET /domain/zone/*
+    - PUT /domain/zone/*
+    - POST /domain/zone/*
+    - DELETE /domain/zone/*
  
  - Or dor only one domain
-	- GET /domain/zone/
-	- GET /domain/zone/{your_zone}/status
-	- GET /domain/zone/{your_zone}/record
-	- GET /domain/zone/{your_zone}/record/*
-	- POST /domain/zone/{your_zone}/record
-	- POST /domain/zone/{your_zone}/refresh
-	- DELETE /domain/zone/{your_zone}/record/*
+    - GET /domain/zone/
+    - GET /domain/zone/{your_zone}/status
+    - GET /domain/zone/{your_zone}/record
+    - GET /domain/zone/{your_zone}/record/*
+    - POST /domain/zone/{your_zone}/record
+    - POST /domain/zone/{your_zone}/refresh
+    - DELETE /domain/zone/{your_zone}/record/*
   - And validate
