@@ -40,7 +40,7 @@ docker run -ti --rm \
     - POST /domain/zone/*
     - DELETE /domain/zone/*
  
- - Or dor only one domain
+ - Or for only one domain
     - GET /domain/zone/
     - GET /domain/zone/{your_zone}/status
     - GET /domain/zone/{your_zone}/record
