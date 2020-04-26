@@ -13,7 +13,7 @@ docker run -ti --rm \
 	-e 'CERT_EMAIL=mail@mydomain.com' \
 	-e 'CERT_DOMAIN=mydomain.com' \
 	-e 'CRON_PERIOD=0 3 * * *' \
-	smeagolworms4/cerbot-ovh-cron
+	smeagolworms4/certbot-ovh-cron
 ```
 
 ## For run only once
@@ -27,7 +27,7 @@ docker run -ti --rm \
 	-e 'DNS_OVH_CONSUMER_KEY=XXXXXXXXXXXXXXXX' \
 	-e 'CERT_EMAIL=mail@mydomain.com' \
 	-e 'CERT_DOMAIN=mydomain.com' \
-	smeagolworms4/cerbot-ovh-cron cert_domain
+	smeagolworms4/certbot-ovh-cron cert_domain
 ```
 	
 ## Create your Token
